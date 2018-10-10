@@ -2,7 +2,10 @@ document.addEventListener("DOMContentloaded", (e) => {
   console.log(movies)
   // invoking a function here will make sure it happens on page load
   // your code here
-document.addEventListener()
+.addEventListener("click", (e) => {
+  
+}
+)
   
   function init(){
     if (key === "Titanic") {
