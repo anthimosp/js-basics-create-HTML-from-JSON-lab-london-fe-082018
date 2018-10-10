@@ -2,7 +2,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   console.log(movies)
   // invoking a function here will make sure it happens on page load
   // your code here
-const Titanic = 
+const Titanic = document.getElementById
   Titanic.addEventListener("click", (e) => {
   
 }
