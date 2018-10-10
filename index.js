@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 const Titanic = document.getElementById("Titanic")
 
 Titanic.addEventListener("click", (e) => {
-  document.getElementById("title").innerHTML = movies["Titanic"]["title"]
+  document.getElementById("title").innerHTML = movies["Titanic 2"]["title"]
   document.getElementById("director").innerHTML = movies["Titanic"]["director"]
   document.getElementById("genre").innerHTML = movies["Titanic"]["genre"]
   document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"]
