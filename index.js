@@ -12,7 +12,7 @@ Titanic.addEventListener("click", (e) => {
   document.getElementById("poster").innerHTML = movies["Titanic"]["poster"]
   document.getElementById("description").innerHTML = movies["Titanic"]["description"]
   document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"]
-  document.getElementById("case").innerHTML.querySelectorAll (movies["Titanic"]["cast"])
+  document.getElementById("case").innerHTML = movies["Titanic"]["cast"]
   }
 )
 
