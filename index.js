@@ -4,7 +4,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   // your code here
   function init(){
     if (key === "Titanic") {
-      return movies.JSON
+      return text/javascript
     }
   }
 });
