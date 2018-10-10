@@ -18,7 +18,7 @@ Titanic.addEventListener("click", (e) => {
 
 const Terminator = document.getElementById("Terminator 2")
 
-Titanic.addEventListener("click", (e) => {
+Terminator.addEventListener("click", (e) => {
   document.getElementById("title").innerHTML = movies["Terminator"]["title"]
   document.getElementById("director").innerHTML = movies["Terminator"]["director"]
   document.getElementById("genre").innerHTML = movies["Terminator"]["genre"]
