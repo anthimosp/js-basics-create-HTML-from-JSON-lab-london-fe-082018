@@ -9,10 +9,5 @@ Titanic.addEventListener("click", (e) => {
   
 }
 )
-  
-  function init(){
-    if (key === "Titanic") {
-      return text/javascript
-    }
-  }
-});
+}
+)
