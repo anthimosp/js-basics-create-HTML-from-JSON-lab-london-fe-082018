@@ -25,8 +25,8 @@ Terminator.addEventListener("click", (e) => {
   document.getElementById("filmRating").innerHTML = movies["Terminator 2"]["filmRating"]
   document.getElementById("poster").innerHTML = movies["Terminator 2"]["poster"]
   document.getElementById("description").innerHTML = movies["Terminator 2"]["description"]
-  document.getElementById("audienceScore").innerHTML = movies["Terminator"]["audienceScore"]
-  document.getElementById("case").innerHTML = movies["Terminator"]["cast"]
+  document.getElementById("audienceScore").innerHTML = movies["Terminator 2"]["audienceScore"]
+  document.getElementById("case").innerHTML = movies["Terminator 2"]["cast"]
   }
 )
 
