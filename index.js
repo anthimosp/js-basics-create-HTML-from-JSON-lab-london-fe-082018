@@ -3,6 +3,8 @@ document.addEventListener("DOMContentloaded", (e) => {
   // invoking a function here will make sure it happens on page load
   // your code here
   function init(){
-    if (key === "Titanic")
+    if (key === "Titanic") {
+      index++
+    }
   }
 });
