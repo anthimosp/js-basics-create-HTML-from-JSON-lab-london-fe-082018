@@ -11,6 +11,7 @@ Titanic.addEventListener("click", (e) => {
   document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"]
   document.getElementById("poster").innerHTML = movies["Titanic"]["poster"]
   document.getElementById("description").innerHTML = movies["Titanic"]["description"]
+  document.getElementById("title").innerHTML = movies["Titanic"]["title"]
   
 }
 )
