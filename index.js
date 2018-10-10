@@ -27,6 +27,8 @@ Terminator.addEventListener("click", (e) => {
   document.getElementById("description").innerHTML = movies["Terminator"]["description"]
   document.getElementById("audienceScore").innerHTML = movies["Terminator"]["audienceScore"]
   document.getElementById("case").innerHTML = movies["Terminator"]["cast"]
+  }
+)
 
   }
 )
