@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 const Titanic = document.getElementById("Titanic")
 
 Titanic.addEventListener("click", (e) => {
-  document.getElementById("title").innerHTML = movies["Titanic 2"]["title"]
+  document.getElementById("title").innerHTML = movies["Titanic"]["title"]
   document.getElementById("director").innerHTML = movies["Titanic"]["director"]
   document.getElementById("genre").innerHTML = movies["Titanic"]["genre"]
   document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"]
@@ -19,7 +19,7 @@ Titanic.addEventListener("click", (e) => {
 const Terminator = document.getElementById("Terminator 2")
 
 Terminator.addEventListener("click", (e) => {
-  document.getElementById("title").innerHTML = movies["Terminator"]["title"]
+  document.getElementById("title").innerHTML = movies["Terminator 2"]["title"]
   document.getElementById("director").innerHTML = movies["Terminator"]["director"]
   document.getElementById("genre").innerHTML = movies["Terminator"]["genre"]
   document.getElementById("filmRating").innerHTML = movies["Terminator"]["filmRating"]
