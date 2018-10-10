@@ -6,7 +6,7 @@ const Titanic = document.getElementById("Titanic")
 
 Titanic.addEventListener("click", (e) => {
   document.getElementById("title").innerHTML = movies["Titanic"]["title"]
-  document.getElementById("title").innerHTML = movies["Titanic"]["title"]
+  document.getElementById("director").innerHTML = movies["Titanic"]["director"]
   
 }
 )
