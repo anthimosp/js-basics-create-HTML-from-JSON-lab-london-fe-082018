@@ -5,8 +5,8 @@ document.addEventListener("DOMContentloaded", (e) => {
 const Titanic = document.getElementById("Titanic")
 
 Titanic.addEventListener("click", (e) => {
-  title.id 
-  index.innerHTML
+  document.getElementById("title").innerHTML()
+  
 }
 )
   
