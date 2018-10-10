@@ -20,11 +20,11 @@ const Terminator = document.getElementById("Terminator 2")
 
 Terminator.addEventListener("click", (e) => {
   document.getElementById("title").innerHTML = movies["Terminator 2"]["title"]
-  document.getElementById("director").innerHTML = movies["Terminator"]["director"]
-  document.getElementById("genre").innerHTML = movies["Terminator"]["genre"]
-  document.getElementById("filmRating").innerHTML = movies["Terminator"]["filmRating"]
-  document.getElementById("poster").innerHTML = movies["Terminator"]["poster"]
-  document.getElementById("description").innerHTML = movies["Terminator"]["description"]
+  document.getElementById("director").innerHTML = movies["Terminator 2"]["director"]
+  document.getElementById("genre").innerHTML = movies["Terminator 2"]["genre"]
+  document.getElementById("filmRating").innerHTML = movies["Terminator 2"]["filmRating"]
+  document.getElementById("poster").innerHTML = movies["Terminator 2"]["poster"]
+  document.getElementById("description").innerHTML = movies["Terminator 2"]["description"]
   document.getElementById("audienceScore").innerHTML = movies["Terminator"]["audienceScore"]
   document.getElementById("case").innerHTML = movies["Terminator"]["cast"]
   }
